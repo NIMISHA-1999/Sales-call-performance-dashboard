@@ -24,6 +24,7 @@ Frontend: React, Vite,JavaScript, CSS
 Database: MySQL 
 
 📦 Installation
+
 Clone the Repository
 git clone https://github.com/your-username/Sales-call-performance-dashboard.git
 cd Sales-call-performance-dashboard
@@ -48,16 +49,6 @@ Start Vite for Frontend Assets: npm run dev
 
 
 
-📂 Project Structure
-SalesCallPerformanceDashboard/
-├── app/ # Laravel backend logic
-├── database/ # Migrations & seeders
-├── public/ # Public assets
-├── resources/ # Views, JS, CSS
-├── routes/ # Web & API routes
-├── package.json # Frontend dependencies
-├── composer.json # Backend dependencies
-└── .env.example # Environment example file
 
 
 
