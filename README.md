@@ -30,13 +30,13 @@ git clone https://github.com/NIMISHA-1999/Sales-call-performance-dashboard.git
 
 cd Sales-call-performance-dashboard
 
-Install Backend Dependencies
+Install Backend Dependencies:
 composer install
 
-Install Frontend Dependencies
+Install Frontend Dependencies:
 npm install
 
-Configure Environment
+Configure Environment:
 
 cp .env.example .env
 
