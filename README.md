@@ -59,3 +59,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+# Sales Call Performance Dashboard
+
+A dashboard to analyze and visualize sales call performance.
+
+## Features
+- Upload call data files
+- Paginated performance reports
+- Agent-wise statistics
+
+
+composer install          # Install PHP dependencies
+npm install               # Install frontend dependencies
+cp .env.example .env      # Copy example environment file
+php artisan migrate       # Set up database tables
+php artisan serve         # Start Laravel backend
+npm run dev               # Start frontend asset compiler
+
