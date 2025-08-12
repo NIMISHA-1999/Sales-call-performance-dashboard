@@ -25,32 +25,32 @@ Database: MySQL
 
 📦 Installation
 
-Clone the Repository
+*Clone the Repository
 git clone https://github.com/NIMISHA-1999/Sales-call-performance-dashboard.git
 
-cd Sales-call-performance-dashboard
+*cd Sales-call-performance-dashboard
 
-Install Backend Dependencies:
+*Install Backend Dependencies:
 composer install
 
-Install Frontend Dependencies:
+*Install Frontend Dependencies:
 npm install
 
-Configure Environment:
+*Configure Environment:
 
 cp .env.example .env
 
 php artisan key:generate
 (Update .env file with correct database credentials)
 
-Migrate the Database
+*Migrate the Database:
 php artisan migrate
 
-Run the Project
+*Run the Project
 
-Start Laravel Backend: php artisan serve
+-Start Laravel Backend: php artisan serve
 
-Start Vite for Frontend Assets: npm run dev
+-Start Vite for Frontend Assets: npm run dev
 
 
 
